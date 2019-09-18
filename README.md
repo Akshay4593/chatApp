@@ -18,6 +18,11 @@ Firebase database
 * Floating text field same as android
 
 
+## Screenshots
+
+![group_chat_screen](https://user-images.githubusercontent.com/50488281/65129491-0259fc00-da19-11e9-81b3-66d6091da427.png)
+
+
 ## Author
 
 * **Akshay Shedge** - *Initial work* 
