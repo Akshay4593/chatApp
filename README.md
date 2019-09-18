@@ -1,21 +1,21 @@
 # chatApp
- Chatapp is a messaging app which enables group conversations for the employees of the company. So that all the members of the team should be on the same page regarding the outcome of the product.
+ Chatapp is a real time **messaging application** based on **Firebase realtime database** which enables group conversations.
 
 
 ### Prerequisites
 Xcode 10.1
 Swift 4.2
 Architecture MVC
+Firebase database
 
 
-## Improvement, Features, Fixes
+##  Features
 
-* Floating text field same as android
-* Group chat on single screen
 * Registration and login with firebase
 * Authentication by firebase 
+* Group chat on single screen
 * User can able to get realtime messages without refreshing the screen.
-
+* Floating text field same as android
 
 
 ## Author
