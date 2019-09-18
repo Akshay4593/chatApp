@@ -48,7 +48,7 @@
                                                         </constraints>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                                     </textField>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -113,7 +113,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MF2-0p-H0B" customClass="TPKeyboardAvoidingScrollView">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MF2-0p-H0B" customClass="TPKeyboardAvoidingScrollView">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J68-46-VMu">
@@ -149,7 +149,7 @@
                                                         </constraints>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="titleTextColour">
                                                                 <color key="value" red="0.23921568630000001" green="0.35294117650000001" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -169,7 +169,7 @@
                                                         </constraints>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uBW-Z3-6nF" customClass="FloatingTextField" customModule="ChatApp" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="150" width="335" height="35"/>
@@ -178,7 +178,7 @@
                                                         </constraints>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -212,7 +212,7 @@
                                             <constraint firstItem="XE1-EB-hSQ" firstAttribute="centerY" secondItem="J68-46-VMu" secondAttribute="centerY" multiplier="0.8" id="pCX-rJ-0aE"/>
                                             <constraint firstItem="XE1-EB-hSQ" firstAttribute="centerX" secondItem="J68-46-VMu" secondAttribute="centerX" id="t4C-Ze-0jZ"/>
                                             <constraint firstItem="4jh-JU-cnO" firstAttribute="width" secondItem="J68-46-VMu" secondAttribute="width" multiplier="25/100" id="vD5-7q-THN"/>
-                                            <constraint firstItem="TdS-1n-sVu" firstAttribute="top" secondItem="XE1-EB-hSQ" secondAttribute="bottom" constant="50" id="yz6-Cz-CB3"/>
+                                            <constraint firstItem="TdS-1n-sVu" firstAttribute="top" secondItem="XE1-EB-hSQ" secondAttribute="bottom" priority="700" constant="50" id="yz6-Cz-CB3"/>
                                         </constraints>
                                     </view>
                                 </subviews>

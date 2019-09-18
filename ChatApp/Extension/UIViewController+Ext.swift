@@ -14,7 +14,6 @@ var vSpinner : UIView?
 extension UIViewController{
     
 
-    
     func show(message: String) {
         let toastContainer = UIView(frame: CGRect())
         toastContainer.backgroundColor = UIColor.black.withAlphaComponent(0.6)
@@ -57,25 +56,6 @@ extension UIViewController{
             })
         })
     }
-    
-    func showLoading(){
-        
-        let uiView = UIView()
-        uiView.frame = CGRect(x: 0, y: 0, width: 60, height: 60)
-        uiView.center = self.view.center
-        uiView.backgroundColor = Color.Black.value.withAlphaComponent(0.7)
-        uiView.tag = 100
-        uiView.layer.cornerRadius = 4
-        
-        let activityView = UIActivityIndicatorView(style: .white)
-        activityView.color = Color.White.value
-        activityView.center = uiView.center
-        activityView.startAnimating()
-        self.view.addSubview(uiView)
-        uiView.addSubview(activityView)
-
-    }
-    
 
     func showSpinner(onView : UIView) {
         let spinnerView = UIView.init(frame: onView.bounds)
@@ -99,14 +79,6 @@ extension UIViewController{
             vSpinner = nil
         }
     }
-    
-    func hideLoading(){
-        
-        self.view.subviews.forEach({
-            if $0.tag == 100 {
-                $0.removeFromSuperview()
-            }
-        })
-    }
+ 
 }
 
