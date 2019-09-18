@@ -9,7 +9,7 @@ Architecture MVC
 
 
 ## Improvement, Features, Fixes
-* 
+
 * Floating text field same as android
 * Group chat on single screen
 * Registration and login with firebase
